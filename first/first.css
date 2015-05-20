@@ -5,13 +5,12 @@ body {
 .topBoxes {
 	display: flex;
 	flex-direction: row;
-	margin: -25px;
+	justify-content: space-between;
 }
 
 .top {
-	width: calc(100%/3);
+	width: calc(90%/3);
 	height: 250px;
-	margin: 25px;
 }
 
 .red {

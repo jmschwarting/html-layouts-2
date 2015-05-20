@@ -1,0 +1,72 @@
+body {
+		margin: 100px;
+}
+
+.topBoxes {
+	display: flex;
+	flex-direction: row;
+	margin: -25px;
+}
+
+.top {
+	width: calc(100%/3);
+	height: 250px;
+	margin: 25px;
+}
+
+.red {
+	background: red;
+}
+
+.blue {
+	background: teal;
+}
+
+.gray {
+	background: #222;
+}
+
+.text {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 25px;
+}
+
+.thirds {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.one-third {
+	width: calc(100%/3);
+	height: 100%;
+}
+
+.two-thirds {
+	width: calc((100%/3)*2);
+	height: 100%;
+}
+
+.crazy {
+	margin-top: 50px;
+	height: 250px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.crazy .blue {
+	width: 70%;
+	height: 100%;
+}
+
+.crazy .red {
+	width: 5%;
+	height: 100%;
+}
+
+.crazy .gray {
+	width: 20%;
+	height: 100%;
+}
